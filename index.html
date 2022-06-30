@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food</title>
+    <style>
+        .nav {
+            display: flex;
+            /* background-color: aqua; */
+            flex-direction: column;
+            background-image: url('/pic/food.jpg');
+        }
+
+        .navbar li {
+            display: flex;
+            list-style: none;
+
+        }
+
+        .navbar ul li a {
+            text-decoration: none;
+            padding: 3px 3px;
+        }
+
+        .name {
+            flex-direction: column;
+            /* background-color: blueviolet; */
+            align-items: center;
+            justify-content: center;
+            padding: 4px 4px;
+
+        }
+
+        p::before {
+            background: url('/pic/food.jpg');
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .name p {
+            text-align: center;
+        }
+
+        .navbar ul {
+            display: flex;
+        }
+
+        .second {
+            display: flex;
+        }
+
+        .secondclass {
+            padding: 52px 22px;
+            border: 2px solid green;
+            border-radius: 12px;
+
+
+        }
+
+        .secondclass h2 {
+            text-align: center;
+        }
+
+        .secondclass p {
+            text-align: center;
+        }
+
+        .pic {
+            display: flex;
+            background: url('/pic/food.jpg') center;
+
+        }
+        .pic img{
+            padding:12px 12px;
+            align-items: center;
+            margin: 12px 12px;
+        }
+
+        .google {
+            width: 85px
+        }
+
+        .form {
+            border: 4px solid green;
+            display: flex;
+            width: 500px;
+            padding: 22px 22px;
+            align-items: center;
+            background-color: antiquewhite;
+        }
+
+        .fromtext {
+            padding: 12px 12px;
+            align-items: center;
+        }
+
+        .fromtext input {
+            border-radius: 23px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <nav class="navbar">
+            <ul>
+                <li class="list" id="iist1"><a href="#">Home</a></li>
+                <li class="list" id="iist2"><a href="#">Service</a></li>
+                <li class="list" id="iist3"><a href="#">About</a></li>
+                <li class="list" id="iist4"><a href="#">Contact Us</a></li>
+
+            </ul>
+        </nav>
+        <div class="name">
+            <h1>welcome to my website</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium blanditiis rerum iure vel explicabo
+                repudiandae nihil adipisci dolorum quod a, sed, aliquid fugiat cum!</p>
+            <button class="name">submit</button>
+        </div>
+
+    </div>
+    <div class="second">
+        <div class="secondclass">
+            <h2>food</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, vero aperiam quidem sint odit nisi quae
+                eum quaerat exercitationem ex totam maxime placeat, aspernatur eligendi molestiae unde soluta deserunt.
+                Nesciunt!</p>
+        </div>
+        <div class="secondclass">
+            <h2>home</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, non praesentium, commodi, inventore
+                impedit possimus assumenda odit reprehenderit consequuntur earum minima! Illum delectus inventore unde,
+                dolores provident impedit nostrum ad.</p>
+        </div>
+        <div class="secondclass">
+            <h2>study</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur minus aliquam consequuntur nam officia.
+                Consequatur nostrum mollitia corporis sunt dolorum. Ut maiores temporibus, sequi error in officia vitae
+                pariatur consectetur.</p>
+        </div>
+    </div>
+    <div class="pic">
+        <div><img src="/pic/google.webp" alt="loading failed" class="google"></div>
+        <div><img src="/pic/glass.webp" alt="loading failed" class="google"></div>
+        <div><img src="/pic/gra.webp" alt="loading failed" class="google"></div>
+        <div><img src="/pic/orange.webp" alt="loading failed" class="google"></div>
+
+    </div>
+    <div class="form">
+        <form>
+            <div class="fromtext">
+                <label> name</label>
+                <input type="text">
+            </div>
+            <div class="fromtext">
+                <label>number</label>
+                <input type="number">
+            </div>
+            <div class="fromtext">
+                <label>address</label>
+                <input type="text">
+            </div>
+            <div class="fromtext">
+                <label>pin cod</label>
+                <input type="text">
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
