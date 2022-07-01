@@ -1,24 +1,27 @@
-.second{
+#secondid{
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 .nav{
-    padding: 0;
     width :139%;
     
 }
 .pic{
     padding: 0;
     margin: 2px -34px;
-    width: 369px;
+    width: 100%;
 }
 #from{
-    padding: 0;
-    width: 369px;
+    
+    width: 100%;
 
 }
 .section{
-    padding: 0;
-    width:330px
+    width:100%;
+}
+#section{
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
 }
