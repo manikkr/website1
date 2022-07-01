@@ -6,16 +6,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>food</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Splash&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet">
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
         }
+        body{
+            font-family: 'Roboto', sans-serif;
+            /* font-family: 'Splash', cursive; */
+        }
+
         .nav {
             display: flex;
             /* background-color: aqua; */
             flex-direction: column;
             background-image: url('food.jpg');
+
         }
 
         .navbar li {
@@ -27,6 +36,7 @@
         .navbar ul li a {
             text-decoration: none;
             padding: 3px 3px;
+            font-family: 'Rubik Moonrocks', cursive;
         }
 
         .name {
@@ -34,20 +44,24 @@
             /* background-color: blueviolet; */
             align-items: center;
             justify-content: center;
-            padding: 4px 4px;
+            padding: 70px 70px;
+            font-family: 'Rubik Moonrocks', cursive;
 
         }
 
         p::before {
-            background: url('food.jpg');
+            background: url('food.jpg') no-repeat center center/cover;
         }
 
-        h1 {
+        h1{
             text-align: center;
+            padding: 37px;
         }
 
         .name p {
             text-align: center;
+            padding: 29px;
+            font-size: 1.0rem;
         }
 
         .navbar ul {
@@ -55,14 +69,15 @@
         }
 
         .second {
-            display: flex;background-color: white;
+            display: flex;
+            background-color: white;
         }
 
         .secondclass {
             padding: 52px 22px;
-           margin: 5px;
+            margin: 5px;
             border-radius: 12px;
-background-color: rgb(192, 197, 201);
+            background-color: rgb(192, 197, 201);
 
         }
 
@@ -76,15 +91,18 @@ background-color: rgb(192, 197, 201);
 
         .pic {
             display: flex;
-            background: url('food.jpg') center;
+            background: url('food.jpg') center center/cover;
+            overflow: hidden;
 
         }
-        .pic img{
-            padding:12px 12px;
+
+        .pic img {
+            padding: 12px 12px;
             align-items: center;
             margin: 12px 12px;
             flex-wrap: wrap;
             justify-content: center;
+            overflow: hidden;
         }
 
         .google {
@@ -92,11 +110,11 @@ background-color: rgb(192, 197, 201);
         }
 
         #form {
-            
+
             display: block;
             width: 100%;
             margin: auto;
-            
+
             align-items: center;
             background-color: antiquewhite;
             justify-items: center;
@@ -108,24 +126,30 @@ background-color: rgb(192, 197, 201);
             display: flex;
             align-items: center;
             justify-content: center;
+            font-family: 'Rubik Moonrocks', cursive;
         }
 
         .fromtext input {
             border-radius: 23px;
         }
-        .nam{
-display: block;
-width:100px;
-margin: auto;
-padding: -4px 132px;
+
+        .nam {
+            display: block;
+            width: 100px;
+            margin: auto;
+            padding: -4px 132px;
+            font-family: 'Rubik Moonrocks', cursive;
         }
-        label{
+
+        label {
             font-size: 1.0rem;
         }
-        html{
+
+        html {
             scroll-behavior: smooth;
         }
-        #apnaa{
+
+        #apnaa {
             text-align: center;
             padding: 12px;
             align-items: center;
@@ -152,62 +176,70 @@ padding: -4px 132px;
             <button class="nam">submit</button>
         </div>
 
-    </div> 
+    </div>
     <section>
-    <div class="second" id="secondid">
-        <div class="secondclass">
-            <h2>food</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, vero aperiam quidem sint odit nisi quae
-                eum quaerat exercitationem ex totam maxime placeat, aspernatur eligendi molestiae unde soluta deserunt.
-                Nesciunt!</p>
-        </div>
-        <div class="secondclass">
-            <h2>home</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, non praesentium, commodi, inventore
-                impedit possimus assumenda odit reprehenderit consequuntur earum minima! Illum delectus inventore unde,
-                dolores provident impedit nostrum ad.</p>
-        </div>
-        <div class="secondclass">
-            <h2>study</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur minus aliquam consequuntur nam officia.
-                Consequatur nostrum mollitia corporis sunt dolorum. Ut maiores temporibus, sequi error in officia vitae
-                pariatur consectetur.</p>
-        </div></section>
-    </div><section>
-    <div class="pic">
-        <div><img src="google.webp" alt="loading failed" class="google"></div>
-        <div><img src="glass.webp" alt="loading failed" class="google"></div>
-        <div><img src="gra.webp" alt="loading failed" class="google"></div>
-        <div><img src="orange.webp" alt="loading failed" class="google"></div>
+        <div class="second" id="secondid">
+            <div class="secondclass">
+                <h2>food</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, vero aperiam quidem sint odit nisi
+                    quae
+                    eum quaerat exercitationem ex totam maxime placeat, aspernatur eligendi molestiae unde soluta
+                    deserunt.
+                    Nesciunt!</p>
+            </div>
+            <div class="secondclass">
+                <h2>home</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, non praesentium, commodi, inventore
+                    impedit possimus assumenda odit reprehenderit consequuntur earum minima! Illum delectus inventore
+                    unde,
+                    dolores provident impedit nostrum ad.</p>
+            </div>
+            <div class="secondclass">
+                <h2>study</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur minus aliquam consequuntur nam
+                    officia.
+                    Consequatur nostrum mollitia corporis sunt dolorum. Ut maiores temporibus, sequi error in officia
+                    vitae
+                    pariatur consectetur.</p>
+            </div>
+    </section>
+    </div>
+    <section>
+        <div class="pic">
+            <div><img src="google.webp" alt="loading failed" class="google"></div>
+            <div><img src="glass.webp" alt="loading failed" class="google"></div>
+            <div><img src="gra.webp" alt="loading failed" class="google"></div>
+            <div><img src="orange.webp" alt="loading failed" class="google"></div>
 
-    </div></section>
+        </div>
+    </section>
     <section>
-    <div id="form">
-        <form>
-            <div class="fromtext">
-                <label for="name"> Name</label>
-                <input type="text" value="">
-            </div>
-            <div class="fromtext">
-                <label for="name">Number</label>
-                <input type="number">
-            </div>
-            <div class="fromtext">
-                <label for="name">Address</label>
-                <input type="text">
-            </div>
-            <div class="fromtext">
-                <label for="name">Pin cod</label>
-                <input type="text">
-            </div>
-        </form>
-    </div>
-</section>
-<footer>
-    <div id="apnaa">
-        copyright &copy; www.food.com.all rightreserved!
-    </div>
-</footer>
+        <div id="form">
+            <form>
+                <div class="fromtext">
+                    <label for="name"> Name</label>
+                    <input type="text" value="">
+                </div>
+                <div class="fromtext">
+                    <label for="name">Number</label>
+                    <input type="number">
+                </div>
+                <div class="fromtext">
+                    <label for="name">Address</label>
+                    <input type="text">
+                </div>
+                <div class="fromtext">
+                    <label for="name">Pin cod</label>
+                    <input type="text">
+                </div>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <div id="apnaa">
+            copyright &copy; www.food.com.all rightreserved!
+        </div>
+    </footer>
 </body>
 
 </html>
