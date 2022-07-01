@@ -4,9 +4,23 @@
     justify-content: center;
 }
 .nav{
-    width :100%;
+    padding: 0;
+    margin: 2px -34px;
+    width :139%;
+    
 }
 .pic{
     padding: 0;
     margin: 2px -34px;
+    width: 369px;
+}
+#from{
+    padding: 0;
+    margin: 2px -34px;
+
+    width: 369px;
+
+}
+.section{
+    width:330px
 }

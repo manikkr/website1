@@ -56,9 +56,13 @@
 
         }
 
-        p::before {
+    /* h1::before {
             background: url('food.jpg') no-repeat center center/cover;
-        }
+            position: relative;
+            top:0;
+            z-index: -2;
+            opacity: 0.5;
+        } */
 
         h1{
             text-align: center;
@@ -173,7 +177,7 @@
 <body>
     <div class="nav">
         <nav class="navbar">
-            <ul>
+            <ul id="navbar">
                 <li class="list" id="iist1"><a href="#name">Home</a></li>
                 <li class="list" id="iist2"><a href="#secondid">Service</a></li>
                 <li class="list" id="iist3"><a href="#form">About</a></li>
@@ -225,7 +229,7 @@
 
         </div>
     </section>
-    <section>
+    <section class="section">
         <div id="form">
             <form>
                 <div class="fromtext">
