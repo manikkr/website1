@@ -7,6 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>food</title>
     <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
         .nav {
             display: flex;
             /* background-color: aqua; */
@@ -118,6 +122,9 @@ padding: -4px 132px;
         label{
             font-size: 1.0rem;
         }
+        html{
+            scroll-behavior: smooth;
+        }
     </style>
 </head>
 
@@ -125,14 +132,14 @@ padding: -4px 132px;
     <div class="nav">
         <nav class="navbar">
             <ul>
-                <li class="list" id="iist1"><a href="#">Home</a></li>
-                <li class="list" id="iist2"><a href="#">Service</a></li>
-                <li class="list" id="iist3"><a href="#">About</a></li>
+                <li class="list" id="iist1"><a href="#name">Home</a></li>
+                <li class="list" id="iist2"><a href="#secondid">Service</a></li>
+                <li class="list" id="iist3"><a href="#form">About</a></li>
                 <li class="list" id="iist4"><a href="#">Contact Us</a></li>
 
             </ul>
         </nav>
-        <div class="name">
+        <div class="name" id="name">
             <h1>welcome to my website</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium blanditiis rerum iure vel explicabo
                 repudiandae nihil adipisci dolorum quod a, sed, aliquid fugiat cum!</p>
@@ -141,7 +148,7 @@ padding: -4px 132px;
 
     </div> 
     <section>
-    <div class="second">
+    <div class="second" id="secondid">
         <div class="secondclass">
             <h2>food</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, vero aperiam quidem sint odit nisi quae
