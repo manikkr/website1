@@ -3,3 +3,9 @@
     align-items: center;
     justify-content: center;
 }
+.nav{
+    width :100%;
+}
+.pic{
+    margin: 2px -34px;
+}
