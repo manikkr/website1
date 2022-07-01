@@ -51,14 +51,14 @@
         }
 
         .second {
-            display: flex;
+            display: flex;background-color: white;
         }
 
         .secondclass {
             padding: 52px 22px;
-            border: 2px solid green;
+           margin: 5px;
             border-radius: 12px;
-
+background-color: rgb(192, 197, 201);
 
         }
 
@@ -79,28 +79,44 @@
             padding:12px 12px;
             align-items: center;
             margin: 12px 12px;
+            flex-wrap: wrap;
+            justify-content: center;
         }
 
         .google {
             width: 85px
         }
 
-        .form {
+        #form {
             border: 4px solid green;
-            display: flex;
+            display: block;
             width: 500px;
+            margin: auto;
             padding: 22px 22px;
             align-items: center;
             background-color: antiquewhite;
+            justify-items: center;
+            justify-content: center;
         }
 
         .fromtext {
             padding: 12px 12px;
+            display: flex;
             align-items: center;
+            justify-content: center;
         }
 
         .fromtext input {
             border-radius: 23px;
+        }
+        .nam{
+display: block;
+width:100px;
+margin: auto;
+padding: -4px 132px;
+        }
+        label{
+            font-size: 1.0rem;
         }
     </style>
 </head>
@@ -120,10 +136,11 @@
             <h1>welcome to my website</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium blanditiis rerum iure vel explicabo
                 repudiandae nihil adipisci dolorum quod a, sed, aliquid fugiat cum!</p>
-            <button class="name">submit</button>
+            <button class="nam">submit</button>
         </div>
 
-    </div>
+    </div> 
+    <section>
     <div class="second">
         <div class="secondclass">
             <h2>food</h2>
@@ -142,35 +159,37 @@
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur minus aliquam consequuntur nam officia.
                 Consequatur nostrum mollitia corporis sunt dolorum. Ut maiores temporibus, sequi error in officia vitae
                 pariatur consectetur.</p>
-        </div>
-    </div>
+        </div></section>
+    </div><section>
     <div class="pic">
         <div><img src="google.webp" alt="loading failed" class="google"></div>
         <div><img src="glass.webp" alt="loading failed" class="google"></div>
         <div><img src="gra.webp" alt="loading failed" class="google"></div>
         <div><img src="orange.webp" alt="loading failed" class="google"></div>
 
-    </div>
-    <div class="form">
+    </div></section>
+    <section>
+    <div id="form">
         <form>
             <div class="fromtext">
-                <label> name</label>
-                <input type="text">
+                <label for="name"> Name</label>
+                <input type="text" value="">
             </div>
             <div class="fromtext">
-                <label>number</label>
+                <label for="name">Number</label>
                 <input type="number">
             </div>
             <div class="fromtext">
-                <label>address</label>
+                <label for="name">Address</label>
                 <input type="text">
             </div>
             <div class="fromtext">
-                <label>pin cod</label>
+                <label for="name">Pin cod</label>
                 <input type="text">
             </div>
         </form>
     </div>
+</section>
 </body>
 
 </html>
